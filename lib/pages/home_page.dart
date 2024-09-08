@@ -16,10 +16,10 @@ class HomePage extends StatelessWidget {
         toolbarHeight: 71,
         title: const Header(),
       ),
-      body: SingleChildScrollView(
+      body: const SingleChildScrollView(
         child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
-            children: [const Search(), const NewsFeed()]),
+            children: [Search(), NewsFeed()]),
       ),
     );
   }
